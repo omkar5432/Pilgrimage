@@ -115,8 +115,8 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
                             <h1 class="display-3 text-white mb-md-4">Let's Discover The World Together</h1>
-                            <a href="register" class="btn btn-primary py-md-3 px-md-5 mt-2">Register</a><br>
-                            <a href="login" class="btn btn-primary py-md-3 px-md-5 mt-2">Log In</a>
+                            <a href="register" target="_blank" class="btn btn-primary py-md-3 px-md-5 mt-2">Register</a><br>
+                            <a href="login" target="_blank" class="btn btn-primary py-md-3 px-md-5 mt-2">Log In</a>
                             
                         </div>
                     </div>
@@ -131,8 +131,9 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
                             <h1 class="display-3 text-white mb-md-4">Discover Amazing Places With Us</h1>
-                            <a href="register" class="btn btn-primary py-md-3 px-md-5 mt-2">Register</a><br>
-                            <a href="login" class="btn btn-primary py-md-3 px-md-5 mt-2">Log In</a>
+                            <a href="register" target="_blank" class="btn btn-primary py-md-3 px-md-5 mt-2">Register</a><br>
+                            
+                            <a class="btn btn-primary py-md-3 px-md-5 mt-2" href="login" target="_blank">Log In</a>
                         </div>
                     </div>
                 </div>
@@ -231,7 +232,7 @@
                                 <img class="img-fluid" src="img/about-2.jpg" alt="">
                             </div>
                         </div>
-                        <a href="book" class="btn btn-primary mt-1">Book Now</a>
+                        <a href="book" target="_blank" class="btn btn-primary mt-1">Book Now</a>
                     </div>
                 </div>
             </div>
@@ -391,7 +392,7 @@
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
                 <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Packages</h6>
-                <h1>Pefect Pilgrimage Tour</h1>
+                <h1>Perfect Pilgrimage Tour</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">

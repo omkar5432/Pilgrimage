@@ -1,3 +1,6 @@
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +27,8 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    
 </head>
 
 <body>
@@ -33,9 +38,9 @@
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center">
-                        <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                        <p><i class="fa fa-envelope mr-2"></i>othube97@gmail.com</p>
                         <p class="text-body px-3">|</p>
-                        <p><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>9130591063</p>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
@@ -82,14 +87,14 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
-                                <a href="destination.html" class="dropdown-item active">Destination</a>
-                                <a href="guide.html" class="dropdown-item">Travel Guides</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="blog" class="dropdown-item">Blog Grid</a>
+                                <a href="single." class="dropdown-item">Blog Detail</a>
+                                <a href="destination" class="dropdown-item active">Destination</a>
+                                <a href="guide" class="dropdown-item">Travel Guides</a>
+                                <a href="testimonial" class="dropdown-item">Testimonial</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -164,10 +169,24 @@
             </div>
         </div>
     </div>
+    
+    
+   <center> 
+   <h1>Hello</h1>
+   <c:forEach var="a" items="${lr}">
+  <h3 style="color: blue">${a.name}</h3>
+   </c:forEach>
+
+   <a href="book" class="btn btn-primary btn-block" style="height: 47px; width: 4cm; display: block;">Book Now</a>
+    </center>
+   
     <!-- Booking End -->
+   
+    
+    
     
 
-    <!-- Destination Start -->
+   <!-- Destination Start -->
     <div class="container-fluid py-5">
         <div class="container pt-5 pb-3">
             <div class="text-center mb-3 pb-3">
@@ -178,54 +197,54 @@
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-1.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">United States</h5>
-                            <span>100 Cities</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="north_india" target="_blank">
+                            <h5 class="text-white">North india</h5>
+                            <span>5 places</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-2.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">United Kingdom</h5>
-                            <span>100 Cities</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="south_india" target="_blank"	>
+                            <h5 class="text-white">South india</h5>
+                            <span>5 Places</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-3.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Australia</h5>
-                            <span>100 Cities</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="east_india" target="_blank">
+                            <h5 class="text-white">East india</h5>
+                            <span>5 Places</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-4.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">India</h5>
-                            <span>100 Cities</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="west_india" target="_blank">
+                            <h5 class="text-white">West india</h5>
+                            <span>5 Places</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-5.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">South Africa</h5>
-                            <span>100 Cities</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="central_india" target="_blank">
+                            <h5 class="text-white">Cenral india</h5>
+                            <span>5 Places</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-6.jpg" alt="">
-                        <a class="destination-overlay text-white text-decoration-none" href="">
-                            <h5 class="text-white">Indonesia</h5>
-                            <span>100 Cities</span>
+                        <a class="destination-overlay text-white text-decoration-none" href="international" target="_blank">
+                            <h5 class="text-white">Intenational</h5>
+                            <span>5 Place</span>
                         </a>
                     </div>
                 </div>

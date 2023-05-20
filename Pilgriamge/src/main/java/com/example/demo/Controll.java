@@ -1,7 +1,10 @@
 package com.example.demo;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -85,11 +88,15 @@ public class Controll
 	}
 	
 	@PostMapping("/register-1")
-	public String register_(@ModelAttribute("r1") register r1)
+	public String register_(@ModelAttribute("r1") register r1, ModelMap m1)
 	{
 		se.register_data(r1);
-		return "login";
+		List<register>lr=se.show_data(r1);
+		m1.addAttribute("lr", lr);
+		return "destination";
 	}
+	
+	
 	
 	@PostMapping("/login-1")
 	public String login_()
@@ -133,4 +140,26 @@ public class Controll
 	{
 		return "international";
 	}
+	
+	@RequestMapping("/book")
+	public String book()
+	{
+		return "book";
+	}
+	
+	@PostMapping("/book_1")
+	public String book_1(@ModelAttribute("b1") book b1)
+	{
+		se.book_data(b1);
+		return "redirect:/final";
+	}
+	
+	@RequestMapping("/final")
+	public String final_(ModelMap m)
+	{
+		List<book>r=se.show_data();
+		m.addAttribute("r",r);
+		return "final";
+	}
+	
 }
