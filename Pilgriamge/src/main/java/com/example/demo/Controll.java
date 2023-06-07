@@ -99,10 +99,11 @@ public class Controll
 	
 	
 	@PostMapping("/login-1")
-	public String login_()
+	public String login_(ModelMap m)
 	{
-		
-		return "destination";
+		List<book>r=se.show_data();
+		m.addAttribute("r", r);
+		return "passenger_data";
 	}
 	
 	@RequestMapping("/north_india")
@@ -160,6 +161,13 @@ public class Controll
 		List<book>r=se.show_data();
 		m.addAttribute("r",r);
 		return "final";
+	}
+	
+
+	@RequestMapping("/payment")
+	public String payment()
+	{
+		return "payment";
 	}
 	
 }

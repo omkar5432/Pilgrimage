@@ -1,15 +1,16 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <center>
-<h2>Table Data</h2>
+<h2>Schedule Data</h2>
 <table border="1px">
 <tr>
 <th>ID</th>
 <th>Name</th>
 <th>Email</th>
+<th>Date</th>
 <th>Family Member</th>
 <th>Destination</th>
-<th>Payment</th>
+<th>Edit</th>
 </tr>
 
 <c:forEach var="a" items="${r}">
@@ -21,7 +22,8 @@
 <td>${a.number}</td>
 <td>${a.destination}</td>
 <td>
-<a href="payment" class="btn btn-primary btn-block" style="height: 47px; width: 4cm; display: block;">Pay Now</a>
+<a href="del?id=${a.id}">DELETE</a>
+<a href="edit?id=${a.id}">EDIT</a>
 </td>
 </tr>
 </c:forEach>

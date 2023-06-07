@@ -184,30 +184,66 @@ form .user-details .input-box{
             <span class="details">Email</span>
             <input type="text" placeholder="Enter your email" name="email" required>
           </div>
-        <%--   <div class="input-box">
+         	<div class="input-box">
             <span class="details">Depart Date</span>
-            <input type="date" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker" name="date">
-          </div> --%>
+            <input type="date" name="date" class="form-control p-4 datetimepicker-input" placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker">
+          </div>
           <div class="input-box">
             <span class="details">Family Members</span>
             <input type="number" id="number" placeholder="Enter family members" name="number" required>
           </div>
         </div>
         
-      <%--    <div class="row">
+         <div class="row">
                 <div class="col-12">
-
-                  <select class="select form-control-lg" name="destination">
-                    <option value="1" disabled>Choose option</option>
-                    <option value="2">Kedarnath</option>
-                    <option value="3">Ambarnath</option>
-                    <option value="4">Badrinath</option>
-                    <option value="5">Kashi-Vishwanath</option>
-                  </select>
-                  <label class="form-label select-label">Choose option</label>
-
+				<input list="browsers" name="destination" id="browser">
+  					<datalist id="browsers">
+                   <optgroup label="North India">
+                    <option value="Kedarnath">
+                    <option value="Ambarnath">
+                    <option value="Badrinath">
+                    <option value="Kashi-Vishwanath">
+                    </optgroup>
+                    
+                    <optgroup label="South India">
+                    <option value="Meenakshi Temple">
+                    <option value="Padmanabhswamy">
+                    <option value="Rameshwaram">
+                    <option value="Kanyakumari">
+                    </optgroup>
+                    
+                    <optgroup label="East India">
+                    <option value="Sun Temple">
+                    <option value="Jagannathpuri Temple">
+                    <option value="Ganga-Sagar">
+                    <option value="Vrindavan Temple">
+                    </optgroup>
+                    
+                    <optgroup label="West India">
+                    <option value="Dwarkadhish Temple">
+                    <option value="Trimbkeshwar Temple">
+                    <option value="Ganpati-Pule">
+                    <option value="Vrindavan Temple">
+                    </optgroup>
+                    
+                    <optgroup label="Central India">
+                    <option value="Mahakaleshwar Jyotirling Temple">
+                    <option value="Omkareshwar Temple">
+                    <option value="Kandariya Mahadeo Temple">
+                    <option value="Bamleshwari Devi Temple">
+                    </optgroup>
+                    
+                    <optgroup label="International">
+                    <option value="Prambanan Temple">
+                    <option value="Tanah Lot Bali Temple">
+                    <option value="Angkor Wat Temple">
+                    <option value="Pashupatinath Temple">
+                    </optgroup>
+                  </datalist>
+                  <label class="form-label select-label">Choose destination</label>
+						
                 </div>
-              </div>   --%>
+              </div>
         
         <div class="button">
           <input type="submit" value="Book">

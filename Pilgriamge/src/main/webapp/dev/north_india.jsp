@@ -29,6 +29,8 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                       <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -60,6 +62,8 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+									<a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -91,6 +95,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -120,6 +125,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>

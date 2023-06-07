@@ -29,6 +29,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -66,6 +67,7 @@ The recent underwater study on the coastal water of Dwarka by the ASI reveals th
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -102,6 +104,7 @@ All other Jyotirlingas have Shiva as the main deity. The entire black stone temp
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -134,6 +137,7 @@ There are two legends associated with the name of Ganpatipule town. According to
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>

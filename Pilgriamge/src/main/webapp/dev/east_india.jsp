@@ -29,6 +29,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -66,6 +67,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -107,6 +109,7 @@ The best time to visit Puri is from November to February. Being a coastal town, 
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -144,6 +147,7 @@ In 2007, about 300,000 pilgrims took the holy dip where the Hooghly meets the Ba
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>

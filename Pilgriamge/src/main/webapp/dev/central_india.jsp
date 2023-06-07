@@ -29,6 +29,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +46,11 @@ Offering an ambiance that is serene and quiet, Mahakaleshwar Jyotirlinga, counte
 
 On the day of Maha Shivratri, a huge fair get organized near the temple every year when the temple remains open all night. Its a beautiful sight to witness. One should plan a visit during this time of the year to experience the grandeur of Madhya Pradesh temples.
 
-Location: Mahakaleshwar Jyotirlinga, Ujjain, Madhya Pradesh.
+Location: Mahakaleshwar Jyotirlinga, Ujjain, Madhya Pradesh.<br>Jyotirlingas are sacred shrines of Lord Shiva. it is believed that Lord Shiva himself visited these places and hence they have a special place in the hearts of devotees. There are 12 of them in India.<br>
+
+Jyotirlinga means column or pillar of light. The stambha symbol represents that there is no beginning or end.<br>
+
+When Lord Brahma and Lord Vishnu had an argument about who was the supreme god, Lord Shiva appeared as a column of light and asked each one to find the ends. Neither could do it. It is believed that the places where these columns of light fell is where the jyotirlingas are located. 
 
 Timings: 4:00 am to 11:00 pm.                      	
                       	</p></div>
@@ -66,6 +71,7 @@ Timings: 4:00 am to 11:00 pm.
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -105,6 +111,7 @@ Timings: 5:00 am to 10:00 pm.
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -141,6 +148,7 @@ Timings: 6:00 am to 6:00 pm.
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>

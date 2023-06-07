@@ -29,6 +29,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -67,6 +68,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +88,7 @@
                 
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="package-item bg-white mb-2">
-                        <img class="img-fluid" src="img/badrinath.jpg" alt="">
+                        <img class="img-fluid" src="img/rameshwaram.jpg" alt="">
                         <div class="p-4">
                             <div class="d-flex justify-content-between mb-3">
                                 <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Rameshwaram</small>
@@ -98,6 +100,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -127,6 +130,7 @@
                                 <div class="d-flex justify-content-between">
                                     <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(250)</small></h6>
                                     <h5 class="m-0">$350</h5>
+                                    <a href="book" class="btn btn-primary btn-block" style="height: 40px; width: 3cm;">Book Now</a>
                                 </div>
                             </div>
                         </div>
